@@ -40,18 +40,27 @@ const About = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <h2 className={styles.sectionHeadText}>About me.</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        As a professional freelancer with more then 600 websites built and
+        expertise in responsive website development, I specialize in creating
+        custom WordPress websites from scratch and building sites using popular
+        page builders such as Elementor, Visual Composer, DIVI, and Oxygen. In
+        addition to custom website development, I offer services such as
+        ecommerce website development, web hosting migration, WordPress speed
+        optimization, bug fixing, website security, and SEO-friendly design. I
+        pride myself on open communication and collaboration with my clients,
+        and I am always looking for ways to create the best possible outcome for
+        their project. My work hours are flexible and overlap with various time
+        zones, allowing me to easily work with clients around the world. I am
+        committed to working with professional and responsive clients and strive
+        to provide the highest level of service and support to ensure a
+        successful project outcome.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
